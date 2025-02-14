@@ -8,10 +8,10 @@
 		<version>3.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.luv2code.springboot.demo</groupId>
-	<artifactId>mycoolapp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>mycoolapp</name>
+		<groupId>com.luv2code.springboot.demo</groupId>
+		<artifactId>mycoolapp</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<name>mycoolapp</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -40,6 +40,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
 	</dependencies>
 
 	<build>
