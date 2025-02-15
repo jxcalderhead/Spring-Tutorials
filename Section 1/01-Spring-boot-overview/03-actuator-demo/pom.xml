@@ -47,6 +47,7 @@
 			<scope>runtime</scope>
 		</dependency>
 
+		<!-- Adding support for spring boot actuator -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
